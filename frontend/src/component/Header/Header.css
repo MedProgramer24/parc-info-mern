@@ -1,0 +1,36 @@
+.header {
+    background-color: #2d3748; /* Dark gray background */
+    color: white;
+    padding: 20px 40px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 24px;
+  }
+  
+  .nav-item {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .nav-item:hover {
+    color: #e2e8f0; /* Light gray on hover */
+  }
+  
